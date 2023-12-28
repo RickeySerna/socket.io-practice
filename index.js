@@ -8,9 +8,6 @@ const app = express();
 const server = createServer(app);
 const io = new Server(server);
 
-//test
-
-
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 app.get('/', (req, res) => {
